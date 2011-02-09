@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ScoutsterGPSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ScoutsterGPSAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TrackViewController.m */; };
+		B5B6195A12270A4F009D17B4 /* TrackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B6195912270A4F009D17B4 /* TrackView.xib */; };
+		B5B6198612270B25009D17B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B6198512270B25009D17B4 /* MapKit.framework */; };
+		B5B61B44122817DC009D17B4 /* GpxMapperDemo.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B5B61B43122817DC009D17B4 /* GpxMapperDemo.xcdatamodel */; };
+		B5B61B5B12281A2B009D17B4 /* EntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B61B5A12281A2B009D17B4 /* EntityManager.m */; };
+		B5B61B8D12281E57009D17B4 /* GPXDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B61B8C12281E57009D17B4 /* GPXDataManager.m */; };
+		B5B61BE012282816009D17B4 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B61BDF12282816009D17B4 /* Track.m */; };
+		B5B61C151228293E009D17B4 /* TrackListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B61C131228293E009D17B4 /* TrackListController.m */; };
+		B5B61C161228293E009D17B4 /* TrackListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B61C141228293E009D17B4 /* TrackListController.xib */; };
+		B5B61D1F12283DB5009D17B4 /* CurrentTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B61D1D12283DB5009D17B4 /* CurrentTrackViewController.m */; };
+		B5B61D2012283DB5009D17B4 /* CurrentTrackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B61D1E12283DB5009D17B4 /* CurrentTrackViewController.xib */; };
+		B5E3030E1226F96B000FCD8A /* GPXParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E3030D1226F96B000FCD8A /* GPXParser.m */; };
+		B5E304011227051F000FCD8A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E304001227051F000FCD8A /* CoreData.framework */; };
+		B5EBDB86121F34EF0094C962 /* data.GPX in Resources */ = {isa = PBXBuildFile; fileRef = B5EBDB85121F34EF0094C962 /* data.GPX */; };
+		B5EBDBA5121F36EB0094C962 /* GPXSample.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBDBA4121F36EB0094C962 /* GPXSample.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ScoutsterGPSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoutsterGPSAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ScoutsterGPSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoutsterGPSAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* GpxMapperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpxMapperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* GpxMapperDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GpxMapperDemo_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* GpxMapperDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GpxMapperDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B5B6195912270A4F009D17B4 /* TrackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackView.xib; sourceTree = "<group>"; };
+		B5B6198512270B25009D17B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B5B61B43122817DC009D17B4 /* GpxMapperDemo.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = GpxMapperDemo.xcdatamodel; sourceTree = "<group>"; };
+		B5B61B5912281A2B009D17B4 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityManager.h; sourceTree = "<group>"; };
+		B5B61B5A12281A2B009D17B4 /* EntityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityManager.m; sourceTree = "<group>"; };
+		B5B61B8B12281E57009D17B4 /* GPXDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPXDataManager.h; path = "Data Access/GPXDataManager.h"; sourceTree = "<group>"; };
+		B5B61B8C12281E57009D17B4 /* GPXDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPXDataManager.m; path = "Data Access/GPXDataManager.m"; sourceTree = "<group>"; };
+		B5B61BDE12282816009D17B4 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Track.h; path = "Model Classes/Track.h"; sourceTree = "<group>"; };
+		B5B61BDF12282816009D17B4 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Track.m; path = "Model Classes/Track.m"; sourceTree = "<group>"; };
+		B5B61C121228293E009D17B4 /* TrackListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackListController.h; sourceTree = "<group>"; };
+		B5B61C131228293E009D17B4 /* TrackListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackListController.m; sourceTree = "<group>"; };
+		B5B61C141228293E009D17B4 /* TrackListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrackListController.xib; path = Classes/TrackListController.xib; sourceTree = "<group>"; };
+		B5B61D1C12283DB5009D17B4 /* CurrentTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTrackViewController.h; sourceTree = "<group>"; };
+		B5B61D1D12283DB5009D17B4 /* CurrentTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTrackViewController.m; sourceTree = "<group>"; };
+		B5B61D1E12283DB5009D17B4 /* CurrentTrackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentTrackViewController.xib; sourceTree = "<group>"; };
+		B5E3030C1226F96B000FCD8A /* GPXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPXParser.h; path = Classes/GPXParser.h; sourceTree = "<group>"; };
+		B5E3030D1226F96B000FCD8A /* GPXParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPXParser.m; path = Classes/GPXParser.m; sourceTree = "<group>"; };
+		B5E303BD12270390000FCD8A /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		B5E304001227051F000FCD8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B5EBDB85121F34EF0094C962 /* data.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.GPX; sourceTree = "<group>"; };
+		B5EBDBA3121F36EB0094C962 /* GPXSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPXSample.h; path = Classes/GPXSample.h; sourceTree = "<group>"; };
+		B5EBDBA4121F36EB0094C962 /* GPXSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPXSample.m; path = Classes/GPXSample.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				B5E304011227051F000FCD8A /* CoreData.framework in Frameworks */,
+				B5B6198612270B25009D17B4 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ScoutsterGPSAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ScoutsterGPSAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* TrackViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TrackViewController.m */,
+				B5B61C121228293E009D17B4 /* TrackListController.h */,
+				B5B61C131228293E009D17B4 /* TrackListController.m */,
+				B5B61D1C12283DB5009D17B4 /* CurrentTrackViewController.h */,
+				B5B61D1D12283DB5009D17B4 /* CurrentTrackViewController.m */,
+				B5B61D1E12283DB5009D17B4 /* CurrentTrackViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GpxMapperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBDB85121F34EF0094C962 /* data.GPX */,
+				B5B61B55122819DF009D17B4 /* Data Access */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				B5B61B54122819CB009D17B4 /* Model Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B5E303BD12270390000FCD8A /* libz.1.2.3.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* GpxMapperDemo_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5B61C141228293E009D17B4 /* TrackListController.xib */,
+				B5B6195912270A4F009D17B4 /* TrackView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* GpxMapperDemo-Info.plist */,
+				B5B61B43122817DC009D17B4 /* GpxMapperDemo.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E304001227051F000FCD8A /* CoreData.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				B5B6198512270B25009D17B4 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B61B54122819CB009D17B4 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5B61BDE12282816009D17B4 /* Track.h */,
+				B5B61BDF12282816009D17B4 /* Track.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		B5B61B55122819DF009D17B4 /* Data Access */ = {
+			isa = PBXGroup;
+			children = (
+				B5B61B5912281A2B009D17B4 /* EntityManager.h */,
+				B5B61B5A12281A2B009D17B4 /* EntityManager.m */,
+				B5B61B8B12281E57009D17B4 /* GPXDataManager.h */,
+				B5B61B8C12281E57009D17B4 /* GPXDataManager.m */,
+				B5EBDBA3121F36EB0094C962 /* GPXSample.h */,
+				B5EBDBA4121F36EB0094C962 /* GPXSample.m */,
+				B5E3030C1226F96B000FCD8A /* GPXParser.h */,
+				B5E3030D1226F96B000FCD8A /* GPXParser.m */,
+			);
+			name = "Data Access";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GpxMapperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GpxMapperDemo" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GpxMapperDemo;
+			productName = ScoutsterGPS;
+			productReference = 1D6058910D05DD3D006BFB54 /* GpxMapperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GpxMapperDemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GpxMapperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B5EBDB86121F34EF0094C962 /* data.GPX in Resources */,
+				B5B6195A12270A4F009D17B4 /* TrackView.xib in Resources */,
+				B5B61C161228293E009D17B4 /* TrackListController.xib in Resources */,
+				B5B61D2012283DB5009D17B4 /* CurrentTrackViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ScoutsterGPSAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TrackViewController.m in Sources */,
+				B5EBDBA5121F36EB0094C962 /* GPXSample.m in Sources */,
+				B5E3030E1226F96B000FCD8A /* GPXParser.m in Sources */,
+				B5B61B44122817DC009D17B4 /* GpxMapperDemo.xcdatamodel in Sources */,
+				B5B61B5B12281A2B009D17B4 /* EntityManager.m in Sources */,
+				B5B61B8D12281E57009D17B4 /* GPXDataManager.m in Sources */,
+				B5B61BE012282816009D17B4 /* Track.m in Sources */,
+				B5B61C151228293E009D17B4 /* TrackListController.m in Sources */,
+				B5B61D1F12283DB5009D17B4 /* CurrentTrackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GpxMapperDemo_Prefix.pch;
+				INFOPLIST_FILE = "GpxMapperDemo-Info.plist";
+				PRODUCT_NAME = GpxMapperDemo;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GpxMapperDemo_Prefix.pch;
+				INFOPLIST_FILE = "GpxMapperDemo-Info.plist";
+				PRODUCT_NAME = GpxMapperDemo;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GpxMapperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "GpxMapperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
